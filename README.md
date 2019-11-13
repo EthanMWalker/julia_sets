@@ -25,7 +25,7 @@ The dynamical system that we are interested in today is called the quadratic map
 
 ## The Filled Julia Set
 The filled Julia set ![K](https://latex.codecogs.com/gif.latex?K) of a map ![Q](https://latex.codecogs.com/gif.latex?Q_c) is the set of all points whose itinerary is bounded under ![Q](https://latex.codecogs.com/gif.latex?Q_c). In other words 
-https://latex.codecogs.com/gif.latex?K%28Q_c%29%20%3D%5C%7Bz%5Cin%5Cmathbb%7BC%7D%3A%5C%3B%20%5Cleft%20%7C%20Q_c%5En%28z%29%20%5Cright%20%7C%20%3C%20%5Cinfty%20%5Ctext%7B%20as%20%7D%20n%5Cto%5Cinfty%5C%7D.
+![def](https://latex.codecogs.com/gif.latex?K%28Q_c%29%20%3D%5C%7Bz%5Cin%5Cmathbb%7BC%7D%3A%5C%3B%20%5Cleft%20%7C%20Q_c%5En%28z%29%20%5Cright%20%7C%20%3C%20%5Cinfty%20%5Ctext%7B%20as%20%7D%20n%5Cto%5Cinfty%5C%7D).
 
 The Julia set ![J](https://latex.codecogs.com/gif.latex?J) is actually the boundary of this set: ![J](https://latex.codecogs.com/gif.latex?J%28Q_c%29%20%3D%20%5Cpartial%20K%28Q_c%29).
 
