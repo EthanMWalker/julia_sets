@@ -17,7 +17,7 @@ as the n<sup>th</sup> composure of ![F](https://latex.codecogs.com/gif.latex?F) 
 
 ### Orbits
 If for any point ![x](https://latex.codecogs.com/gif.latex?x) we have that
-![orbit](https://latex.codecogs.com/gif.latex?F%5En%28x%29%20%3D%20x), then we say that ![x](https://latex.codecogs.com/gif.latex?x) is a point of period 2, or that the oribit of ![x](https://latex.codecogs.com/gif.latex?x) is order 2.
+![orbit](https://latex.codecogs.com/gif.latex?F%5En%28x%29%20%3D%20x), then we say that ![x](https://latex.codecogs.com/gif.latex?x) is a point of period ![n](https://latex.codecogs.com/gif.latex?n), or that the oribit of ![x](https://latex.codecogs.com/gif.latex?x) is order ![n](https://latex.codecogs.com/gif.latex?n).
 
 ## The Quadritic Map
 The dynamical system that we are interested in today is called the quadratic map. The function that describes the system is the following
