@@ -2,21 +2,21 @@
 This activity is about exploring the beauty of mathematics through creating and displaying julia sets. 
 
 ## Dynamical Systems
-A dynamical system is defined by a function that ddescribes the time dependance of a point in space. In this activity we will be talking about complex dynamical systems. That is, dynamical systems of a complex variable. The systems that we will consider then are of the form ![func](https://latex.codecogs.com/gif.latex?F%3A%5Cmathbb%7BC%7D%5Cto%5Cmathbb%7BC%7D).
+A dynamical system is defined by a function that describes the time dependance of a point in space. In this activity we will be talking about complex dynamical systems, that is dynamical systems of a complex variable. The systems that we will consider then are of the form ![func](https://latex.codecogs.com/gif.latex?F%3A%5Cmathbb%7BC%7D%5Cto%5Cmathbb%7BC%7D).
 
 ### Itineraries
-Because Dynamical systems describe a time dependent system we can determine the iternerary of a certain point by considering the following sequence: ![itinerary](https://latex.codecogs.com/gif.latex?%28x%5Ei%29_%7Bi%3D0%7D%5E%5Cinfty)
-where: ![time dependance](https://latex.codecogs.com/gif.latex?x%5E%7Bi&plus;1%7D%20%3D%20F%28x%5Ei%29).
+Because Dynamical systems describe a time dependent system we can determine the itinerary of a certain point by considering the following sequence: ![itinerary](https://latex.codecogs.com/gif.latex?%28x%5Ei%29_%7Bi%3D0%7D%5E%5Cinfty),
+where ![time dependance](https://latex.codecogs.com/gif.latex?x%5E%7Bi&plus;1%7D%20%3D%20F%28x%5Ei%29).
 
 We call this sequence the itinerary of ![x](https://latex.codecogs.com/gif.latex?x).
 
-To clarify notation we will also describe:
+To clarify notation we will also describe ![comp](https://latex.codecogs.com/gif.latex?F%5En%28x%29%3D%28F%5Ccirc%5Cdots%5Ccirc%20F%29%28x%29)
 as the n<sup>th</sup> composure of ![F](https://latex.codecogs.com/gif.latex?F) with itself.
 
 ### Orbits
-If for any point ![x](https://latex.codecogs.com/gif.latex?x) we have that ![orbit](https://latex.codecogs.com/gif.latex?F%5En%28x%29%20%3D%20x), then we say that ![x](https://latex.codecogs.com/gif.latex?x) is a point of period ![n](https://latex.codecogs.com/gif.latex?n), or that the oribit of ![x](https://latex.codecogs.com/gif.latex?x) is order ![n](https://latex.codecogs.com/gif.latex?n).
+If for any point ![x](https://latex.codecogs.com/gif.latex?x) we have that ![orbit](https://latex.codecogs.com/gif.latex?F%5En%28x%29%20%3D%20x), then we say that ![x](https://latex.codecogs.com/gif.latex?x) is a point of period ![n](https://latex.codecogs.com/gif.latex?n), or that the orbit of ![x](https://latex.codecogs.com/gif.latex?x) is order ![n](https://latex.codecogs.com/gif.latex?n).
 
-## The Quadritic Map
+## The Quadratic Map
 The dynamical system that we are interested in today is called the quadratic map. The function that describes the system is the following: ![func](https://latex.codecogs.com/gif.latex?Q_c%3A%5Cmathbb%7BC%7D%5Cto%5Cmathbb%7BC%7D), defined by ![quad](https://latex.codecogs.com/gif.latex?Q_c%28z%29%20%3D%20z%5E2%20&plus;%20c).
 
 ## The Filled Julia Set
@@ -24,7 +24,7 @@ The filled Julia set ![K](https://latex.codecogs.com/gif.latex?K) of a map ![Q](
 
 The Julia set ![J](https://latex.codecogs.com/gif.latex?J) is actually the boundary of this set: ![J](https://latex.codecogs.com/gif.latex?J%28Q_c%29%20%3D%20%5Cpartial%20K%28Q_c%29).
 
-This boundary is where we find the beauty that we are looking for. It has fractal properties, meaning that this perimiter of a finite area is in fact infinity!
+This boundary is where we find the beauty that we are looking for. It has fractal properties, meaning that the perimeter of this finite area is in fact infinity!
 
 ---
 
